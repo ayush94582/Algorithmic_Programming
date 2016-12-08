@@ -5,9 +5,9 @@ I will only put solutions here if I think they are interesting and have a nice s
 But, please do not steal this code! 
 USACO is meant to be a fun coding experience that challenges all of us at the level we are at.
 
-In the USACO Bronze Folder: Solutions from Chapter 1-2 USACO Training Getaway and Bronze Level Solutions
-In the USACO Silver Folder: Mostly USACO Silver Problem Solutions, but some USACO Gold Solutions
-In the Miscellaneous Folder: Mathematical code in graph theory and linear algebra
+USACO Bronze Folder: Solutions from Chapter 1-2 USACO Training Getaway and Bronze Level Solutions
+USACO Silver Folder: Mostly USACO Silver Problem Solutions, but some USACO Gold Solutions
+In the Miscellaneous Folder: Mathematically-based Algorithms in graph theory and linear algebra
 
 This is mostly a logbook for me to remember which solutions I liked a lot,
 and which solutions I will rewrite.
