@@ -4,6 +4,12 @@ LANG: JAVA
 TASK: cbarn
 */
 
+/* 
+USACO Silver Problem Link: http://usaco.org/index.php?page=viewproblem2&cpid=618
+Approach: Iterate through all potential starting points and use the property that 2(a^2+b^2)>=(a+b)^2
+as part of the simulation algorithm.
+*/
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
