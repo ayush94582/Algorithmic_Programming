@@ -1,11 +1,16 @@
+/*
+Interesting Graph Theory Challenge to detect 4-cycles in O(N^2), a large improvement over the naive O(N^4). Mathematical proof 
+can be found on my website to prove that O(N^2) is a lower bound runtime in worst-case.
+*/
+
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
  
-	public class fourcycle 
-	{	
+public class fourcycle 
+{	
    /* Makes use of Map collection to store the adjacency list for each vertex.*/
     private  Map<Integer, List<Integer>> Adjacency_List;	
     int x,y;
@@ -28,21 +33,8 @@ import java.util.Map;
         y = b;
     }
 
-    //comparing two keys
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof fourcycle)) return false;
-        fourcycle key = (fourcycle) o;
-        return x == key.x && y == key.y;
-    } 
-
- 	
-    public int hashCode() {
-        int result = x;
-        result = 31 * result + y;
-        return result;
-    }
-   /* private class Key {
+   
+   static class Key {
 
 		//constructs a key object that is an ordered pair (x,y)
 	    private final int x;
@@ -67,7 +59,7 @@ import java.util.Map;
 	        result = 31 * result + y;
 	        return result;
 	    }
-	}*/
+	}
     
     public void finish(Map<Integer, List<Integer>> adjlist, int N){
     	boolean cycleexists=false;
