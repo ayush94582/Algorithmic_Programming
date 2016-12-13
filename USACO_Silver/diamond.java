@@ -3,6 +3,10 @@ ID: ayush941
 LANG: JAVA
 TASK: diamond
 */
+/*
+Problem Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=643
+Algorithm: Interesting use of sorting/binary search after iterating through total number of diamonds
+*/
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
