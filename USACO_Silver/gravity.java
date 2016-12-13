@@ -3,7 +3,10 @@ ID: ayush941
 LANG: JAVA
 TASK: gravity
 */
-
+/*
+Problem Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=282
+Algorithm: Make methods for "falling" and note that this is a "shortest-paths" graph theory problem.
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
