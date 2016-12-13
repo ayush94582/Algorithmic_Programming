@@ -3,7 +3,10 @@ ID: ayush941
 LANG: JAVA
 TASK: mroute
 */
-
+/*
+Link: http://usaco.org/index.php?page=viewproblem2&cpid=210
+Algorithm: Run Djkstra's in a clever way using cap system.
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
