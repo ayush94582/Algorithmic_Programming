@@ -3,7 +3,11 @@ ID: ayush941
 LANG: JAVA
 TASK: pageant
 */
-
+/*
+Link: http://usaco.org/index.php?page=viewproblem2&cpid=88
+Algorithm: BFS noting the 3 paramters that define the cow's state (see code below)
+Will run in O(NMlogM)
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
