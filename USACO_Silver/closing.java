@@ -3,6 +3,11 @@ ID: ayush941
 LANG: JAVA
 TASK: closing
 */
+
+/*
+Gold USACO Problem Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=646
+Approach: Standard "floodfill" algorithm is too slow and using DSU (Disjoint Set Union) Data Structure will be more efficient.
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
