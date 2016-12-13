@@ -3,7 +3,10 @@ ID: ayush941
 LANG: JAVA
 TASK: fuel
 */
-
+/*
+Problem Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=283
+Approach: Use LIFO Property of Stack, see mathematical insight on link above
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
