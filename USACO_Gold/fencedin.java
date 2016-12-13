@@ -173,10 +173,11 @@ public class fencedin {
 						}
 					}
 				}
-				System.out.println("DICKING");
 				used=new boolean[N+1][M+1];
-			//	test.Primm();
-			//	System.out.println(length);
+				test.Primm();
+				br1.write(Integer.toString(length));
+				br1.newLine();
+				br1.flush();
 		
 	}catch(Exception E){
     	E.getStackTrace();
