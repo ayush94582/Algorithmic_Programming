@@ -180,7 +180,6 @@ public class dream {
 					String[] row=br.readLine().split(" ");;
 					for(int j=0;j<M;j++){
 						grid[i][j]=Integer.parseInt(row[j]);
-						//System.out.println(i+" "+j+" "+grid[i][j]);
 					}
 				}
 				
