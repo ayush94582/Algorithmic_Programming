@@ -3,6 +3,10 @@ ID: ayush941
 LANG: JAVA
 TASK: lightson
 */
+/*
+Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=570
+Algorithm: DFS with visited array and note that 3 possible change in states.
+*/
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
