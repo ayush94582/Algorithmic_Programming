@@ -3,6 +3,10 @@ ID: ayush941
 LANG: JAVA
 TASK: gates
 */
+/*
+Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=596
+Cute use of floodfill algorithm in a "weird" graph.
+*/
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
