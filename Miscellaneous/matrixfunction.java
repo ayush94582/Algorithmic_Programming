@@ -1,3 +1,7 @@
+/*
+Interesting Linear Algebra Challenge to understand properties of the Matrix Function: F(A)=the mth root of 
+the mth power sums of A's eigenvalues. 
+*/
 import Jama.EigenvalueDecomposition;
 import Jama.Matrix;
 
