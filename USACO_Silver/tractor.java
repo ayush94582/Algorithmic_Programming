@@ -3,6 +3,10 @@ ID: ayush941
 LANG: JAVA
 TASK: tractor
 */
+/*
+Link: http://usaco.org/index.php?page=viewproblem2&cpid=491
+Algorithm: Used Floodfill after iterating through all potential meeting points.
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
