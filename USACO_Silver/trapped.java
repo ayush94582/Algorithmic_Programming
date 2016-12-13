@@ -3,6 +3,14 @@ ID: ayush941
 LANG: JAVA
 TASK: trapped
 */
+/*
+Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=554
+Algorithm: Sort the haybales in decreasing order of size. Consider having an empty road, and place the haybales in that order. 
+When placing a haybale, look immediately to its left and to its right and see if you can break through either one of those 
+haybales if you were inside that interval. Mark that interval as "trapped" if so.
+
+This will be O(NlogN) as long as you check to make sure that the interval isn't already marked as trapped.
+*/
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
